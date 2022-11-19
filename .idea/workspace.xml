@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c762f11-0c34-4629-89c5-89e5ac0c5753" name="Changes" comment="encapsulamento">
-      <change afterPath="$PROJECT_DIR$/src/Salario/ValidacaoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Salario/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Salario/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Salario/MainFuncionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Salario/MainFuncionario.java" afterDir="false" />
+    <list default="true" id="9c762f11-0c34-4629-89c5-89e5ac0c5753" name="Changes" comment="Projeto Salario com Exception">
+      <change beforePath="$PROJECT_DIR$/src/Salario/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/salario/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Salario/MainFuncionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/salario/MainFuncionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Salario/ValidacaoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/salario/ValidacaoException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667238521977</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Projeto Salario com Exception">
+      <created>1668887997588</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668887997588</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -76,18 +82,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="projeto Carro" />
-    <option name="LAST_COMMIT_MESSAGE" value="projeto Carro" />
+    <MESSAGE value="Projeto Salario com Exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projeto Salario com Exception" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Salario/MainFuncionario.java</url>
+          <url>file://$PROJECT_DIR$/src/salario/MainFuncionario.java</url>
           <line>32</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Salario/Funcionario.java</url>
+          <url>file://$PROJECT_DIR$/src/salario/Funcionario.java</url>
           <line>65</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>

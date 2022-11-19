@@ -1,4 +1,4 @@
-package Salario;
+package salario;
 
 public class ValidacaoException extends Throwable {
 

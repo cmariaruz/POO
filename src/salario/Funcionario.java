@@ -1,4 +1,4 @@
-package Salario;
+package salario;
 
 import java.math.BigDecimal;
 import java.util.Objects;

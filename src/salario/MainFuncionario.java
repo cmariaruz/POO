@@ -1,4 +1,4 @@
-package Salario;
+package salario;
 
 import java.math.BigDecimal;
 import java.util.Scanner;
@@ -22,7 +22,6 @@ public class MainFuncionario {
         Funcionario funcionario = new Funcionario(nome, cpf,salarioBase);
         int diasTrabalhados;
         BigDecimal salarioMensal;
-
 
         try {
             System.out.println("Número de dias trabalhados:");
