@@ -1,29 +1,39 @@
 package Salario;
 
+import java.math.BigDecimal;
+import java.util.Scanner;
+
 public class MainFuncionario {
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
-        Funcionario funcionario1 = new Funcionario();
-        funcionario1.salarioBase = 1800.00;
-        funcionario1.cpf = "36832418884";
-        funcionario1.nome = "Joao da Silva";
+        BigDecimal salarioBase;
+        String cpf;
+        String nome;
+        Scanner input = new Scanner(System.in);
 
-        Funcionario funcionario2 = new Funcionario();
-        funcionario2.salarioBase = 1800.00;
-        funcionario2.cpf = "36857536813";
-        funcionario2.nome = "Joao da Silva";
-        double salario = funcionario1.calcularSalarioProporcional(21);
+        System.out.println("Entre com o funcionario:");
+        System.out.println("Nome:");
+        nome = input.next();
+        System.out.println("CPF:");
+        cpf = input.next();
+        System.out.println("Salario:");
+        salarioBase = input.nextBigDecimal();
+        Funcionario funcionario = new Funcionario(nome, cpf,salarioBase);
+        int diasTrabalhados;
+        BigDecimal salarioMensal;
 
-        System.out.println(funcionario1);
 
-        if (funcionario1.equals(funcionario2)){
-            System.out.println("Funcionario ja criado!");
-        }else {
-            System.out.println(funcionario1.toString());
-            System.out.println(funcionario2.toString());
+        try {
+            System.out.println("Número de dias trabalhados:");
+            diasTrabalhados = input.nextInt();
+            salarioMensal = funcionario.calcularSalarioProporcional(funcionario,diasTrabalhados);
+            System.out.println("Salário Proporcional: "+salarioMensal);
+        } catch (ValidacaoException e) {
+            System.out.println("Erro: " + e.getMessage());
+        }finally {
+            System.out.println(funcionario);
         }
-
 
     }
 }

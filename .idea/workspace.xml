@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c762f11-0c34-4629-89c5-89e5ac0c5753" name="Changes" comment="projeto Carro">
-      <change afterPath="$PROJECT_DIR$/src/Salario/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Salario/MainFuncionario.java" afterDir="false" />
+    <list default="true" id="9c762f11-0c34-4629-89c5-89e5ac0c5753" name="Changes" comment="encapsulamento">
+      <change afterPath="$PROJECT_DIR$/src/Salario/ValidacaoException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Salario/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Salario/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Salario/MainFuncionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Salario/MainFuncionario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,7 +40,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/merli/Documents/Ada/POO I/POO_Projeto_1"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -72,5 +77,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="projeto Carro" />
     <option name="LAST_COMMIT_MESSAGE" value="projeto Carro" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Salario/MainFuncionario.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Salario/Funcionario.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
